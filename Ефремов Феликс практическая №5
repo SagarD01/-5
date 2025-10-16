@@ -28,22 +28,22 @@ int main() {
 		cout << c;
 	}
 
-	else if (g == '-') {
+	if (g == '-') {
 		c = a - b;
 		cout << c;
 	}
 
-	else if (g == '*') {
+	if (g == '*') {
 		c = a * b;
 		cout << c;
 	}
 
-	else if (g == '/') {
+	if (g == '/') {
 		c = a / b;
 		cout << c;
 	}
 
-	else if (g == '%') {
+	if (g == '%') {
 		c = (int)a % (int)b;
 		cout << c;
 	}
